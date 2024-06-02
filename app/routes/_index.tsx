@@ -39,7 +39,7 @@ export default function Index() {
             target="_blank"
             rel="noopener noreferrer"
             href="https://github.com/ossua"
-            className="flex items-center text-blue-700 max-w-max hover:underline mt-2"
+            className="flex items-center text-blue-700 max-w-max hover:underline mt-5"
           >
             <svg
               className="size-6 mr-1"
@@ -105,7 +105,7 @@ export default function Index() {
             target="_blank"
             rel="noopener noreferrer"
             href="https://t.me/UkraineOSS"
-            className="flex items-center text-blue-700 max-w-max hover:underline mt-2"
+            className="flex items-center text-blue-700 max-w-max hover:underline mt-5"
           >
             <svg
               className="size-6 mr-1"
