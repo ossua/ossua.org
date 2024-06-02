@@ -1,11 +1,12 @@
 // learn more: https://fly.io/docs/reference/configuration/#services-http_checks
-import type { LoaderFunctionArgs } from "@remix-run/node";
+// import type { LoaderFunctionArgs } from "@remix-run/node";
 
-import { prisma } from "~/db.server";
+// import { prisma } from "~/db.server";
 
-export const loader = async ({ request }: LoaderFunctionArgs) => {
-  const host =
-    request.headers.get("X-Forwarded-Host") ?? request.headers.get("host");
+// export const loader = async ({ request }: LoaderFunctionArgs) => {
+export const loader = async () => {
+  // const host =
+  //   request.headers.get("X-Forwarded-Host") ?? request.headers.get("host");
 
   try {
     // We don't use a database yet, so this healthcheck can be ignored for now
