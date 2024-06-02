@@ -104,7 +104,7 @@ export default function Index() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://t.me"
+            href="https://t.me/UkraineOSS"
             className="flex items-center text-blue-700 max-w-max hover:underline mt-2"
           >
             <svg

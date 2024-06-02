@@ -1,7 +1,7 @@
 const navigation = [
   {
     name: "Telegram",
-    href: "#",
+    href: "https://t.me/UkraineOSS",
     icon: (props: React.SVGProps<SVGSVGElement>) => (
       <svg fill="currentColor" viewBox="0 0 1000 1000" {...props}>
         <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
@@ -16,7 +16,7 @@ const navigation = [
   },
   {
     name: "GitHub",
-    href: "#",
+    href: "https://github.com/ossua",
     icon: (props: React.SVGProps<SVGSVGElement>) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
         <path
