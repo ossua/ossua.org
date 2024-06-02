@@ -65,7 +65,7 @@ export default function Index() {
       </section>
 
       <hr className="mt-6 mb-10" />
-      <section className="flex flex-col md:flex-row md:gap-x-4">
+      <section className="flex flex-col-reverse md:flex-row md:gap-x-4">
         <div className="md:w-2/5">
           <img
             className="w-full md:w-auto"
