@@ -9,6 +9,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
+import { init, trackViews } from "swetrix";
 
 import Footer from "~/components/Footer";
 import Header from "~/components/Header";
@@ -25,6 +26,10 @@ export const links: LinksFunction = () => [
 export const loader = async ({ request }: LoaderFunctionArgs) => {
   return json({ user: await getUser(request) });
 };
+
+// Swetrix Analytics
+init("YA3aAoEeUCE8");
+trackViews();
 
 export default function App() {
   return (
