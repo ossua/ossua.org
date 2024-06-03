@@ -22,7 +22,7 @@ export default function Index() {
       </header>
 
       <hr className="mt-4 mb-10" />
-      <section className="flex flex-col md:flex-row md:gap-x-4">
+      <section className="flex flex-col md:flex-row md:gap-x-8">
         <div className="md:w-3/5 mb-4 md:mb-0">
           <h2 className="text-4xl font-bold tracking-tight text-gray-900">
             Collaborate on open-source projects
@@ -64,8 +64,8 @@ export default function Index() {
         </div>
       </section>
 
-      <hr className="mt-6 mb-10" />
-      <section className="flex flex-col-reverse md:flex-row md:gap-x-4">
+      <hr className="my-10" />
+      <section className="flex flex-col-reverse md:flex-row md:gap-x-8">
         <div className="md:w-2/5">
           <img
             className="w-full md:w-auto"
@@ -90,8 +90,8 @@ export default function Index() {
         </div>
       </section>
 
-      <hr className="mt-6 mb-10" />
-      <section className="flex flex-col md:flex-row md:gap-x-4">
+      <hr className="my-10" />
+      <section className="flex flex-col md:flex-row md:gap-x-8">
         <div className="md:w-3/5 mb-4 md:mb-0">
           <h2 className="text-4xl font-bold tracking-tight text-gray-900">
             Join the community

@@ -9,7 +9,7 @@ import { useState } from "react";
 
 const navigation = [
   // { name: "About", href: "#", external: false },
-  { name: "Projects", href: "#", external: false },
+  { name: "Projects", href: "/projects", external: false },
   { name: "Join us", href: "https://t.me/UkraineOSS", external: true },
   { name: "Github", href: "https://github.com/ossua", external: true },
 ] as const;
